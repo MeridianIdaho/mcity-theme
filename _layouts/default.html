@@ -55,8 +55,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WD5FRXF"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+    <!--[if (gte IE 9)|!(IE)]>
+    <!-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+    <!--<![endif]-->
     <div id="wrapperfix">
-
+    
         <div id="headerfix">
             <div id="header" class="header">
             {% include header.html %}
@@ -71,10 +75,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             {% include footer.html %}
         </div>
     </div>
-    <!--[if (gte IE 9)|!(IE)]>
-    <!-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
-    <!--<![endif]-->
+
 
     <!--<script src="https://code.jquery.com/jquery-1.12.4.min.js"
     integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
