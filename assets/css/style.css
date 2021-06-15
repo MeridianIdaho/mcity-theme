@@ -370,7 +370,6 @@ body.shrinked #header {
 #header .navigation > li > a .max-width-72,
 #header .navigation > li > a .max-width-80,
 #header .navigation > li > a .max-width-136,
-#header .navigation > li > a .max-width-200,
 #header .navigation > li > a .max-width-114,
 #header .navigation > li > a .max-width-55 {
     display: inline-block;
@@ -395,10 +394,6 @@ body.shrinked #header {
 
 .max-width-136 {
     max-width: 136px;
-}
-
-.max-width-200 {
-    max-width: 200px;
 }
 
 .max-width-80 {
